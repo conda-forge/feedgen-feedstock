@@ -1,5 +1,5 @@
 {% set name = "feedgen" %}
-{% set version = "0.9.0" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8e811bdbbed6570034950db23a4388453628a70e689a6e8303ccec430f5a804a
+  sha256: d9bd51c3b5e956a2a52998c3708c4d2c729f2fcc311188e1e5d3b9726393546a
 
 build:
   number: 0
